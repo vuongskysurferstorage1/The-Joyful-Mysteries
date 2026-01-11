@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-the-annunciation",
-      "name": "The Annunciation",
+      "id": "0-1-the-annunciation",
+      "name": "1. The Annunciation",
       "levels": [
         {
           "tileSize": 256,
@@ -37,7 +37,7 @@ var APP_DATA = {
           "yaw": 1.1918843898210767,
           "pitch": 0.008353109752011534,
           "rotation": 0,
-          "target": "1-the-visitation"
+          "target": "1-2-the-visitation"
         }
       ],
       "infoHotspots": [
@@ -50,8 +50,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "1-the-visitation",
-      "name": "The Visitation",
+      "id": "1-2-the-visitation",
+      "name": "2. The Visitation",
       "levels": [
         {
           "tileSize": 256,
@@ -86,7 +86,7 @@ var APP_DATA = {
           "yaw": -1.737048579553397,
           "pitch": -0.3892276590970347,
           "rotation": 0,
-          "target": "0-the-annunciation"
+          "target": "0-1-the-annunciation"
         }
       ],
       "infoHotspots": [
@@ -99,8 +99,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "2-the-nativity",
-      "name": "The Nativity",
+      "id": "2-3-the-nativity",
+      "name": "3. The Nativity",
       "levels": [
         {
           "tileSize": 256,
@@ -135,13 +135,13 @@ var APP_DATA = {
           "yaw": -0.10641923646030449,
           "pitch": -0.1514799637607922,
           "rotation": 0,
-          "target": "3-the-presentation-of-jesus"
+          "target": "3-4-the-presentation-of-jesus"
         },
         {
           "yaw": 2.797923864249073,
           "pitch": -0.32176211857124315,
           "rotation": 0,
-          "target": "1-the-visitation"
+          "target": "1-2-the-visitation"
         }
       ],
       "infoHotspots": [
@@ -154,8 +154,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "3-the-presentation-of-jesus",
-      "name": "The Presentation of Jesus",
+      "id": "3-4-the-presentation-of-jesus",
+      "name": "4. The Presentation of Jesus",
       "levels": [
         {
           "tileSize": 256,
@@ -190,13 +190,13 @@ var APP_DATA = {
           "yaw": 0.03463320479838927,
           "pitch": -0.34893663903430117,
           "rotation": 0,
-          "target": "4-the-finding-of-jesus-in-the-temple"
+          "target": "4-5-the-finding-of-jesus-in-the-temple"
         },
         {
           "yaw": -3.0255872624378544,
           "pitch": -0.18147157780542145,
           "rotation": 0,
-          "target": "2-the-nativity"
+          "target": "2-3-the-nativity"
         }
       ],
       "infoHotspots": [
@@ -209,8 +209,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "4-the-finding-of-jesus-in-the-temple",
-      "name": "The Finding of Jesus in the Temple",
+      "id": "4-5-the-finding-of-jesus-in-the-temple",
+      "name": "5. The Finding of Jesus in the Temple",
       "levels": [
         {
           "tileSize": 256,
@@ -245,7 +245,7 @@ var APP_DATA = {
           "yaw": 2.2271394195466367,
           "pitch": 0.017813100429895812,
           "rotation": 0,
-          "target": "3-the-presentation-of-jesus"
+          "target": "3-4-the-presentation-of-jesus"
         }
       ],
       "infoHotspots": [
